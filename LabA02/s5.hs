@@ -6,6 +6,5 @@ checkPalindrome ls = map isPalindrome ls
             isPalindrome x = x == reverse x
 
 --lamda function solution
-
 -- checkPalindrome :: [String] -> [Bool]
 -- checkPalindrome ls = map (\x -> x == reverse x) ls

@@ -4,7 +4,6 @@ myProduct []     = 1
 myProduct (x:xs) = x * myProduct xs
 
 -- TCO solution
-
 -- myProduct :: Num a => [a] -> a
 -- myProduct ls = go 1 ls
 --     where

@@ -20,7 +20,6 @@ doubleEverySecond ls = go (reverse ls) []
 -- doubleEverySecond :: [Int] -> [Int]
 -- doubleEverySecond []     = []
 -- doubleEverySecond [x]    = [x]
--- doubleEverySecond [x,y]  = [2*x,y]
 -- doubleEverySecond ls@(x:xs)
 --                          | length ls `mod` 2 == 0 = 2*x : doubleEverySecond xs
 --                          | otherwise = x : doubleEverySecond xs
